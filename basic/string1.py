@@ -28,9 +28,10 @@ import re
 
 def donuts(count):
     if count < 10:
-        return "Number of donuts: " + str(count)
-    elif count >= 10:
-        return "Number of donuts: " + "many"
+        qty = str(count)
+    else:
+        qty = 'many'
+    return "Number of donuts: " + qty
 
 
 # B. both_ends
